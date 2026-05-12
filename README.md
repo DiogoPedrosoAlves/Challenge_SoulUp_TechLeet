@@ -31,13 +31,13 @@ Dividimos os arquivos em pastas, os arquivos de CSS estão todos na pasta /css; 
 Diogo Pedroso Alves 
 1TDSR 
 RM: 570024
-GitHub: [link](https://github.com/DiogoPedrosoAlves)
-Linkedin: [link](https://www.linkedin.com/in/diogo-pedroso-alves-895346237/)
+[GitHub](https://github.com/DiogoPedrosoAlves)
+[Linkedin](https://www.linkedin.com/in/diogo-pedroso-alves-895346237/)
 
 Samuel Pedroso Xavier 1TDSR
 RM: 569335
-GitHub: [link](https://github.com/OSamuelXavierDev)
-Linkedin: [link](https://www.linkedin.com/in/samuel-xavier-061434274)
+[GitHub](https://github.com/OSamuelXavierDev)
+[Linkedin](https://www.linkedin.com/in/samuel-xavier-061434274)
 
 Felipe Ferreira Amado 
 1TDSR
