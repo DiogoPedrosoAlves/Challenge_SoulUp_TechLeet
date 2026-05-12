@@ -38,10 +38,22 @@
   </div>
 </div>
 
-    <section id="neck">
-            <div id="avatar">
-                <img src="imagens/Aatar.jpg" alt="Avatar Inteligente">
+<section id="neck">
+        <div class="container">
+            <h1>Customize seu Avatar</h1>
+                <div class="avatar-window">
+                    <img src="imagens/AvatarF-Base.jpg" id="base" class="layer"> 
+                    <img src="imagens/AvatarF-1.png" id="layer-oculos" class="layer hidden">
+                    <img src="imagens/AvatarF-2.png" id="layer-bone" class="layer hidden">
+                    <img src="imagens/AvatarF-3.png" id="layer-bone-oculos" class="layer hidden">
+                </div>
+            <div class="controls">
+                <button onclick="toggleAccessory('oculos')">🕶️</button>
+                <button onclick="toggleAccessory('bone')">🎩</button>
+                <button onclick="addBoth()" style="background-color: #2563eb;">Adicionar Ambos</button> 
+                <button onclick="reset()" style="background-color: #dc2626;">Limpar Tudo</button>
             </div>
-    </section>
+        </div>
+</section>
 </body>
 </html>
