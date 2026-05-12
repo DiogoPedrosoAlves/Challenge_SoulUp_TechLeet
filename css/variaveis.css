@@ -1,0 +1,6 @@
+:root {
+    --primary-color: #5c73f6;
+    --secondary-color: #0f172a;
+    --color-text: #fff;
+    --font: 'figmaSans', 'figmaSans Fallback', SF Pro Display, system-ui, helvetica, sans-serif;
+}

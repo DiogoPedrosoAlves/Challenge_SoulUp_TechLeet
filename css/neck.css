@@ -1,0 +1,41 @@
+#neck {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: var(--secondary-color);
+}   
+
+.carrossel-container {
+  width: 100%;
+  background-color: var(--secondary-color);
+  padding: 20px 0;
+  white-space: nowrap;
+  word-spacing: 200px;
+  border-top: 1px solid var(--primary-color);
+  border-bottom: 1px solid var(--primary-color);
+}
+.grupo {
+  display: flex;
+  align-items: center;
+  gap: 40px; 
+  padding-right: 40px;
+}
+
+.carrossel-texto {
+  display: inline-flex;
+  gap: 50px;
+  animation: rolarHorizontal 25s linear infinite;
+  font-family: var(--font);
+}
+
+.carrossel-texto span {
+  font-size: 30px;
+  font-family: var(--font);
+  font-weight: bold;
+}
+
+@keyframes rolarHorizontal {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
