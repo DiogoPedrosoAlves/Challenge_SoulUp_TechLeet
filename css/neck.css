@@ -19,7 +19,7 @@
   display: flex;
   align-items: center;
   gap: 40px; 
-  padding-right: 40px;
+  margin-right: 100px;
 }
 
 .carrossel-texto {
@@ -51,7 +51,7 @@
     width: 400px;
     height: 400px;
     margin: 20px auto;
-    border: 5px solid #fff;
+    border: 5px solid var(--font);
     border-radius: 15px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.1);
     overflow: hidden;
@@ -77,16 +77,24 @@
     justify-content: center;
 }
 
-button {
+.controls button {
     padding: 10px 20px;
     cursor: pointer;
-    border: 1px solid #3d3939;
+    border: 2px solid transparent;
     border-radius: 15px;
-    background-color: var(--primary-color);
-    color: white;
+    background-color:transparent;
+    color: var(--font);
     font-weight: bold;
 }
 
-button:hover {
-    background-color: #555;
+.accessory:hover {
+    border: 2px solid var(--primary-color);
+}
+
+.allaccessory:hover {
+    background-color: var(--primary-color);
+}
+
+.noaccessory:hover {
+    background-color: red;
 }

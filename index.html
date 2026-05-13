@@ -24,16 +24,18 @@
             </div>
         </header>
         <div>
-            <p>Avatar Inteligente</p>
+            <p id="Avatar">Avatar</p>
+            <p id="Inteligente">Inteligente</p>
+            <p id="Mensagem">Bem-vindo aos Avatares Inteligentes!</p>
         </div>
     </section>
     <div class="carrossel-container">
   <div class="carrossel-texto">
     <div class="grupo">
-        <span>AvatarInteligente Inovação Modelagem Criatividade Diversidade</span>
+        <span> AvatarInteligente Inovação Modelagem Criatividade Diversidade</span>
     </div>
     <div class="grupo">
-        <span>AvatarInteligente Inovação Modelagem Criatividade Diversidade</span>
+        <span> AvatarInteligente Inovação Modelagem Criatividade Diversidade</span>
     </div>
   </div>
 </div>
@@ -48,10 +50,15 @@
                     <img src="imagens/AvatarF-3.png" id="layer-bone-oculos" class="layer hidden">
                 </div>
             <div class="controls">
-                <button onclick="toggleAccessory('oculos')">🕶️</button>
-                <button onclick="toggleAccessory('bone')">🎩</button>
-                <button onclick="addBoth()" style="background-color: #2563eb;">Adicionar Ambos</button> 
-                <button onclick="reset()" style="background-color: #dc2626;">Limpar Tudo</button>
+
+                <button onclick="toggleAccessory('oculos')" class="accessory">🕶️</button>
+
+                <button onclick="toggleAccessory('bone')" class="accessory">🎩</button>
+
+                <button onclick="addBoth()" class="allaccessory">Adicionar Ambos</button> 
+
+                <button onclick="reset()" class="noaccessory">Limpar Tudo</button>
+
             </div>
         </div>
 </section>
