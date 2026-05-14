@@ -1,0 +1,26 @@
+footer {
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    height: 200px;
+}
+
+.logo-footer {
+    align-items: center;
+    margin-left: 10%;
+    border-right: 2px solid rgb(187, 187, 187);
+    width: 25%;
+    height: 70%;
+}
+
+
+
+.logo-footer p {
+    font-size: 15px;
+    font-family: var(--font);
+    color: black;
+}
+img {
+    height: 100px;
+    weight: 100px;
+}
