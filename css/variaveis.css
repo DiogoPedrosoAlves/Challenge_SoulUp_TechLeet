@@ -1,6 +1,7 @@
 :root {
-    --primary-color: #5c73f6;
-    --secondary-color: #0f172a;
-    --color-text: #fff;
+    --primary-color: #64748B;
+    --secondary-color: #0A192F;
+    --color-text: #E6F1F4;
     --font: DM Sans, sans-serif;
+    --text-footer: #8892B0;
 }

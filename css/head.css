@@ -60,7 +60,7 @@ header div#navegacao a:hover::after {
   width: 100%;
 }
 
-section#head div p {
+section#head div.mensagem-central p {
   position: absolute;
   top: 50%;
   left: 50%;

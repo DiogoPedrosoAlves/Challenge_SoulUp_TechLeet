@@ -34,7 +34,8 @@ RM: 570024
 [GitHub](https://github.com/DiogoPedrosoAlves)
 [Linkedin](https://www.linkedin.com/in/diogo-pedroso-alves-895346237/)
 
-Samuel Pedroso Xavier 1TDSR
+Samuel Pedroso Xavier 
+1TDSR
 RM: 569335
 [GitHub](https://github.com/OSamuelXavierDev)
 [Linkedin](https://www.linkedin.com/in/samuel-xavier-061434274)
@@ -42,20 +43,20 @@ RM: 569335
 Felipe Ferreira Amado 
 1TDSR
 RM: 572567
-GitHub: 
-Linkedin:
+[GitHub](https://github.com/FelipeFerreiraAmado)
+[Linkedin](https://www.linkedin.com/in/felipe-amado/)
 
 Murilo Munari Bissiato 
 1TDSR
 RM: 569602
-GitHub:
-Linkedin:
+[GitHub](https://github.com/murilomunari)
+[Linkedin](https://www.linkedin.com/in/murilomunaribissiato/)
 
 Pedro Henrique Toledo Sampaio 
 1TDSR
 RM: 571707
-GitHub:
-Linkedin:
+[GitHub](https://github.com/PedroSampaio20)
+[Linkedin](https://www.linkedin.com/in/pedro-sampaio2002/)
 
 ------------------------------
 
@@ -66,6 +67,7 @@ Linkedin:
 
 ## Link do repositório
 
+[Repositório_GitHub] (https://github.com/DiogoPedrosoAlves/Challenge-SoulUp---TechLeet)
 
 ------------------------------
 

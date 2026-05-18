@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="imagens/IconeUser.png">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/head.css">
+    <link rel="stylesheet" href="/css/variaveis.css">
+    <link rel="stylesheet" href="/css/head.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/contato.css">
+    <script type="module" src="js/main.js"></script>
+</head>
+<body>
+    <!-- Cabeçalho / Cabeça do site -->
+    <section id="head">
+        <header>
+            <div id="nome">
+                <a href="index.html"><h1>Avatares Inteligentes</h1></a>
+            </div>
+            <div id="navegacao">
+                <nav>
+                    <a href="sobre.html">Sobre</a>
+                    <a href="integrantes.html">Integrantes</a>
+                    <a href="contato.html">Contato</a>
+                    <a href="faq.html">FAQ</a>
+                </nav>
+            </div>
+        </header>
+        <main class="contact-page">
+        <section class="contact-intro">
+            <h2>Vamos conversar. Qual a sua Dúvida ?</h2>
+            <p>E-mail para mais informações</p>
+            <div class="mail-card">
+                <img src="imagens/email.png" alt="email">
+                <div>
+                    <small>Mail me at</small>
+                    <p>framesmillion@gmail.com</p>
+                </div>
+            </div>
+        </section>
+        <section class="formulario_contato">
+            <h3>Queremos te ouvir!</h3><br>
+            <form id="contactForm">
+                <label>
+                    Nome*
+                    <input type="text" name="nome" id="nomeInput" placeholder="Nome completo" required>
+                </label>
+                <label>
+                    E-mail*
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                </label>
+                <label>
+                    Assunto
+                    <input type="text" name="assunto" id="assunto" placeholder="Assunto">
+                </label>
+                <label>
+                    Mensagem*
+                    <textarea name="mensagem" id="mensagem" rows="4" placeholder="Diga-nos mais sobre sua dúvida" required></textarea>
+                </label>
+                <button type="submit" class="btn-send">Send message</button>
+                <p id="statusMessagem" aria-live="polite"></p>
+            </form>
+        </section>
+    </section>
+    <!-- Rodapé / Footer do site -->
+    <footer>
+        <div class="logo-footer">
+            <img src="/imagens/TechLeet.png" alt="TechLeet">
+            <img src="imagens/SoulUp.png" alt="SoulUp">
+            <p>Copyright © 2026 TechLeet. Todos os direitos reservados.</p>
+        </div>
+        <div class="logo-footer">
+            <h3>Suporte</h3>
+            <div class="suport">
+                <img src="imagens/teams.png" alt="Teams">
+                <a href="">Teams</a>
+            </div>
+            <div class="suport">
+                <img src="imagens/email.png" alt="e-mail">
+                <a href="mailto:rm570024@fiap.com.br">E-mail</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
