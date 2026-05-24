@@ -1,0 +1,252 @@
+body {
+  overflow-x: hidden;
+  font-family: var(--font);
+}
+
+/* Texto central */
+section#head div#mensagem_central p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mensagem_central {
+    margin-top: 200px;
+}
+
+#Avatar {
+  animation: avatar-color-change 4s infinite alternate;
+  font-weight: bold;
+  font-size: 60px;
+}
+#Inteligente {
+  margin-top: -20px;
+  font-size: 70px;
+}
+
+@keyframes avatar-color-change {
+  0% { color: #1423f7; }
+  50% { color: #6a11cb; }
+  100% { color: #00c6ff; }
+}
+
+#Mensagem {
+  font-size: 30px;
+}
+
+/* Pesçosso da página */
+#Avatar_Inteligente {  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(90deg, var(--secondary-color), #2f429f );
+}   
+
+/* Carrossel de palavras */
+.carrossel-container {
+  width: 100%;
+  background-color: var(--secondary-color);
+  padding: 20px 0;
+  white-space: nowrap;
+  word-spacing: 200px;
+  overflow: hidden;
+  border-top: 1px solid var(--primary-color);
+  border-bottom: 1px solid var(--primary-color);
+}
+.grupo {
+  display: flex;
+  align-items: center;
+  gap: 40px; 
+  margin-right: 100px;
+}
+
+.carrossel-texto {
+  display: inline-flex;
+  gap: 50px;
+  animation: rolarHorizontal 25s linear infinite;
+  font-family: var(--font);
+}
+
+.carrossel-texto span {
+  font-size: 30px;
+  font-family: var(--font);
+  font-weight: bold;
+}
+
+/* Animação do carrossel */
+@keyframes rolarHorizontal {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.container {
+    text-align: center;
+    font-family: var(--font);
+    margin-right: 100px;
+}
+
+/* Customização do Avatar */
+.icone_avatar {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+    border: 5px solid var(--font);
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    overflow: hidden;
+    background-color: #3b82f6;
+}
+.layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.3s ease;
+}
+
+.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.controls {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+/* Botão de costomização */
+.controls button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    background-color:transparent;
+    color: var(--font);
+    font-weight: bold;
+}
+
+.accessory:hover {
+    border: 2px solid var(--primary-color);
+}
+
+.allaccessory:hover {
+    background-color: var(--primary-color);
+}
+
+.noaccessory:hover {
+    background-color: red;
+}
+
+#Avatar_Soulup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(120deg, var(--secondary-color),  #9e19c0);
+}
+
+.avatar_soulup_window {
+    display: flex;
+    height: auto;
+    width: auto;
+    align-items: center;
+    gap: 50px;
+}
+
+#Avatar_Soulup img {
+    width: 300px;
+    height: auto;
+    margin-left: -20px;
+    border: 2px solid var(--primary-color);
+    border-radius: 30px;
+    background-color: rgb(40, 17, 73);
+}
+
+#projeto2 {
+  margin-left: 100px;
+}
+
+/* Responsividade: tablets */
+@media (max-width: 1024px) {
+  #Avatar_Inteligente,
+  #Avatar_Soulup {
+    height: auto;
+    flex-direction: column;
+    padding: 60px 20px;
+  }
+
+  .avatar_window {
+    width: 100%;
+  }
+
+  .container {
+    margin-right: 0;
+  }
+
+  .controls {
+    flex-wrap: wrap;
+  }
+
+  .avatar_soulup_window {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    gap: 30px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  #projeto2 {
+    margin-left: 0;
+  }
+}
+
+/* Responsividade: smartphones */
+@media (max-width: 768px) {
+  #mensagem_central {
+    margin-top: 120px;
+  }
+
+  #Avatar {
+    font-size: 40px;
+  }
+
+  #Inteligente {
+    margin-top: -10px;
+    font-size: 46px;
+  }
+
+  #Mensagem {
+    font-size: 20px;
+    text-align: center;
+    padding: 0 15px;
+  }
+
+  .carrossel-container {
+    word-spacing: 80px;
+  }
+
+  .carrossel-texto span {
+    font-size: 20px;
+  }
+
+  .container h1 {
+    font-size: 26px;
+  }
+
+  #Avatar_Inteligente .icone_avatar {
+    width: 90%;
+    max-width: 320px;
+    height: auto;
+    aspect-ratio: 1 / 1;
+  }
+
+  #Avatar_Soulup img {
+    width: 90%;
+    max-width: 280px;
+  }
+}
