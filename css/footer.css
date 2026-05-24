@@ -13,6 +13,13 @@ footer {
   height: 70%;
 }
 
+.logo-footer2 {
+  text-align: center;
+  align-items: center;
+  width: 50%;
+  height: 70%;
+}
+
 .logo-footer p {
   font-size: 15px;
   font-family: var(--font);

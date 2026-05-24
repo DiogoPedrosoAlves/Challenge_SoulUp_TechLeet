@@ -14,7 +14,6 @@
 h2 {
     font-family: var(--font);
     text-align: center;
-    margin-top: 5%;
     font-size: 2rem;
     color: var(--color);
 }
@@ -29,7 +28,7 @@ h3 {
 #projeto1,
 #projeto2 {
     font-family: var(--font);
-    padding: 40px 35px;
+    padding: 20px 35px;
     width: 700px;
     min-width: 280px;
     height: auto;

@@ -35,7 +35,7 @@ section#head div#mensagem_central p {
 }
 
 /* Pesçosso da página */
-#Avatar_Inteligente {  
+#Avatar_Personalizavel {  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -141,7 +141,7 @@ section#head div#mensagem_central p {
     background-color: red;
 }
 
-#Avatar_Soulup {
+#Avatar_Inteligente {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -149,7 +149,7 @@ section#head div#mensagem_central p {
     background: linear-gradient(120deg, var(--secondary-color),  #9e19c0);
 }
 
-.avatar_soulup_window {
+.avatar_inteligente_window {
     display: flex;
     height: auto;
     width: auto;
@@ -157,7 +157,7 @@ section#head div#mensagem_central p {
     gap: 50px;
 }
 
-#Avatar_Soulup img {
+#Avatar_Inteligente img {
     width: 300px;
     height: auto;
     margin-left: -20px;
@@ -172,8 +172,8 @@ section#head div#mensagem_central p {
 
 /* Responsividade: tablets */
 @media (max-width: 1024px) {
-  #Avatar_Inteligente,
-  #Avatar_Soulup {
+  #Avatar_Personalizavel,
+  #Avatar_Inteligente {
     height: auto;
     flex-direction: column;
     padding: 60px 20px;
@@ -191,7 +191,7 @@ section#head div#mensagem_central p {
     flex-wrap: wrap;
   }
 
-  .avatar_soulup_window {
+  .avatar_inteligente_window {
     flex-direction: column;
     align-items: center;
     margin-left: 0;
@@ -238,14 +238,14 @@ section#head div#mensagem_central p {
     font-size: 26px;
   }
 
-  #Avatar_Inteligente .icone_avatar {
+  #Avatar_Personalizavel .icone_avatar {
     width: 90%;
     max-width: 320px;
     height: auto;
     aspect-ratio: 1 / 1;
   }
 
-  #Avatar_Soulup img {
+  #Avatar_Inteligente img {
     width: 90%;
     max-width: 280px;
   }
