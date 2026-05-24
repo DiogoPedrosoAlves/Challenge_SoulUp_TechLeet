@@ -69,9 +69,10 @@ RM: 571707
 
 ------------------------------
 
-## Link do repositório
+## Link do repositório e vídeo
 
 [Repositório_GitHub](https://github.com/DiogoPedrosoAlves/Challenge_SoulUp_TechLeet)
+[Vídeo do site](https://youtu.be/e9G-t3uL0dg)
 
 ------------------------------
 
