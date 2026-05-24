@@ -31,6 +31,7 @@ img {
   width: 100%;
   margin-top: 15px;
 }
+
 h3 {
   color: var(--text-footer);
   font-family: var(--font);
@@ -50,7 +51,7 @@ h3 {
   border: 2px solid rgb(187, 187, 187);
 }
 
-/* Responsividade: tablets e smartphones */
+/*  Responsividade: tablets e smartphones  */
 @media (max-width: 768px) {
   footer {
     flex-direction: column;
@@ -72,7 +73,7 @@ h3 {
     padding-bottom: 0;
   }
 
-  .logo-footer > img {
+  .logo-footer>img {
     height: 70px;
   }
 }
