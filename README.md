@@ -22,7 +22,7 @@ Pensamos também na criação de um Avatar SoulUp, um mascote que represente de 
 
 ## Estrutura de pastas do projeto
 
-Dividimos os arquivos em pastas, os arquivos de CSS estão todos na pasta /css; os de JS estão em /js; e as imagens se encontram em /imagens.
+Dividimos os arquivos em pastas, os arquivos de CSS estão todos na pasta /css; os de JS estão em /js; e as imagens e icones se encontram em /imagens.
 
 ------------------------------
 
@@ -62,12 +62,16 @@ RM: 571707
 
 ## Imagens e representação do projeto
 
+![Descrição da imagem](imagens/AvatarF-Base.jpg)
+![Descrição da imagem](imagens/AvatarF-3.png)
+
+
 
 ------------------------------
 
 ## Link do repositório
 
-[Repositório_GitHub] (https://github.com/DiogoPedrosoAlves/Challenge-SoulUp---TechLeet)
+[Repositório_GitHub] (https://github.com/DiogoPedrosoAlves/Challenge_SoulUp_TechLeet)
 
 ------------------------------
 

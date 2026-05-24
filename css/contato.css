@@ -2,33 +2,43 @@ body {
     font-family: var(--font);
     margin: 0;
 }
-.contact-page {
+/* Área da página de contato */
+.pagina_contato {
     display: flex;
     gap: 2rem;
     padding: 3rem;
     max-width: 1000px;
     margin: 0 auto;
 }
-.contact-intro {
+.introducao_contato {
     flex: 1;
 }
-.contact-intro h2 { 
+.introducao_contato h2 { 
     margin: 0 0 .5rem;
     color: #0b63d6;
 }
-.mail-card {
+.e-mail_card {
     display: flex;
     align-items: center;
     gap: 1rem;
+    color: black;
     background: #f5f7fb;
     padding: 1rem;
     border-radius: 8px;
     margin-top: 1rem;
 }
-.mail-card img {
+div h4 {
+    color: #4a4a4a;
+    font-weight: bold;
+}
+div p {
+    color: #4a4a4a;
+}
+.e-mail_card img {
     width: 48px;
     height: 48px
 }
+/* Formulário de dúvidas */
 .formulario_contato {
     flex: 1;
     background:#fff;
@@ -57,7 +67,8 @@ body {
 .formulario_contato textarea {
     resize:vertical
 }
-.btn-send {
+/* Botão para enviar as informações */
+.botao_commit {
     background:#0b63d6;
     color:#fff;
     padding:.65rem 1rem;
@@ -67,19 +78,36 @@ body {
     font-weight:600;
     margin-top:.5rem;
 }
-.btn-send:disabled {
+.botao_commit:disabled {
     opacity:.6;cursor:not-allowed;
 }
 #statusMessagem {
     margin-top:0.75rem;
     font-size:0.95rem;
 }
-.success {
+/* Verificação de dados inseridos */
+.successo {
     color:green;
 }
-.error {
+.erro {
     color:#c0392b;
 }
-@media(max-width:800px) {
-    .contact-page{flex-direction:column;padding:1rem};
+/* Responsividade: tablets e smartphones */
+@media (max-width: 800px) {
+    .pagina_contato {
+        flex-direction: column;
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .pagina_contato {
+        padding: 1rem;
+    }
+    .introducao_contato h2 {
+        font-size: 1.4rem;
+    }
+    .formulario_contato {
+        padding: 1rem;
+    }
 }

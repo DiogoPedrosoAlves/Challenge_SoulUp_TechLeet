@@ -1,94 +1,130 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="icon" type="image/x-icon" href="imagens/IconeHome.png">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/variaveis.css">
-    <link rel="stylesheet" href="/css/head.css">
-    <link rel="stylesheet" href="/css/neck.css">
-    <link rel="stylesheet" href="/css/footer.css">
-    <script src="/js/main.js"></script>
-</head>
-<body>
-    <!-- Cabeçalho / Cabeça do site -->
-    <section id="head">
-        <header>
-            <div id="nome">
-                <a href="#top"><h1>Avatares Inteligentes</h1></a>
-            </div>
-            <div id="navegacao">
-                <nav>
-                    <a href="sobre.html">Sobre</a>
-                    <a href="integrantes.html">Integrantes</a>
-                    <a href="contato.html">Contato</a>
-                    <a href="faq.html">FAQ</a>
-                </nav>
-            </div>
-        </header>
-        <div class="mensagem-central">
-            <p id="Avatar">Avatar</p>
-            <p id="Inteligente">Inteligente</p>
-            <p id="Mensagem">Bem-vindo aos Avatares Inteligentes!</p>
-        </div>
-    </section>
-    <section>
-        <!-- Carrosel de palavras -->
-        <div class="carrossel-container">
-            <div class="carrossel-texto">
-                <div class="grupo">
-                    <span> Avatar_Inteligente Inovação Modelagem Criatividade Diversidade</span>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <link rel="icon" type="image/x-icon" href="imagens/IconeHome.png">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/variaveis.css">
+        <link rel="stylesheet" href="css/head.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/sobre.css">
+        <script src="js/index.js"></script>
+        <script src="js/menu.js"></script>
+    </head>
+    <body>
+        <!-- Cabeçalho / Cabeça do site -->
+        <section id="head">
+            <header>
+                <div id="nome">
+                    <a href="#top"><h1>Avatares Inteligentes</h1></a>
                 </div>
-                <div class="grupo">
-                    <span> Avatar_Inteligente Inovação Modelagem Criatividade Diversidade</span>
+                <button type="button" id="menu-hamburguer" aria-label="Abrir menu" aria-controls="navegacao" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div id="navegacao">
+                    <nav>
+                        <a href="sobre.html">Sobre</a>
+                        <a href="integrantes.html">Integrantes</a>
+                        <a href="contato.html">Contato</a>
+                        <a href="faq.html">FAQ</a>
+                    </nav>
+                </div>
+            </header>
+            <!-- Mensgem de boas-vindas -->
+            <div id="mensagem_central">
+                <p id="Avatar">Avatar</p>
+                <p id="Inteligente">Inteligente</p>
+                <p id="Mensagem">Bem-vindo aos Avatares Inteligentes!</p>
+            </div>
+        </section>
+        <section>
+            <!-- Carrosel de palavras -->
+            <div class="carrossel-container">
+                <div class="carrossel-texto">
+                    <div class="grupo">
+                        <span> Avatar_Inteligente Inovação Modelagem
+                            Criatividade Diversidade</span>
+                    </div>
+                    <div class="grupo">
+                        <span> Avatar_Inteligente Inovação Modelagem
+                            Criatividade Diversidade</span>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section id="neck">
-        <div class="container">
-            <!-- Custumização de Avatares -->
-            <h1>Customize seu Avatar</h1>
-                <div class="avatar-window">
-                    <img src="imagens/AvatarF-Base.jpg" id="base" class="layer"> 
-                    <img src="imagens/AvatarF-1.png" id="layer-oculos" class="layer hidden">
-                    <img src="imagens/AvatarF-2.png" id="layer-bone" class="layer hidden">
-                    <img src="imagens/AvatarF-3.png" id="layer-bone-oculos" class="layer hidden">
+        </section>
+        <section id="Avatar_Inteligente">
+            <div class="avatar_window">
+                <div class="container">
+                <!-- Custumização de Avatares -->
+                <h1>Customize seu Avatar</h1>
+                <div class="icone_avatar">
+                    <img src="imagens/AvatarF-Base.jpg" id="base" class="layer">
+                    <img src="imagens/AvatarF-1.png" id="layer-oculos"
+                        class="layer hidden">
+                    <img src="imagens/AvatarF-2.png" id="layer-bone"
+                        class="layer hidden">
+                    <img src="imagens/AvatarF-3.png" id="layer-bone-oculos"
+                        class="layer hidden">
                 </div>
-            <!-- Botões de controle -->
-            <div class="controls">
+                <!-- Botões de controle -->
+                <div class="controls">
 
-                <button onclick="toggleAccessory('oculos')" class="accessory">🕶️</button>
+                    <button onclick="toggleAccessory('oculos')"
+                        class="accessory">🕶️</button>
 
-                <button onclick="toggleAccessory('bone')" class="accessory">🎩</button>
+                    <button onclick="toggleAccessory('bone')"
+                        class="accessory">🎩</button>
 
-                <button onclick="addBoth()" class="allaccessory">Adicionar Ambos</button> 
+                    <button onclick="addBoth()" class="allaccessory">Adicionar
+                        Ambos</button>
 
-                <button onclick="reset()" class="noaccessory">Limpar Tudo</button>
+                    <button onclick="reset()" class="noaccessory">Limpar
+                        Tudo</button>
 
+                </div>
             </div>
-        </div>
-    </section>
-    <!-- Rodapé / Footer do site -->
-    <footer>
-        <div class="logo-footer">
-            <img src="/imagens/TechLeet.png" alt="TechLeet">
-            <img src="imagens/SoulUp.png" alt="SoulUp">
-            <p>Copyright © 2026 TechLeet. Todos os direitos reservados.</p>
-        </div>
-        <div class="logo-footer">
-            <h3>Suporte</h3>
-            <div class="suport">
-                <img src="imagens/teams.png" alt="Teams">
-                <a href="">Teams</a>
             </div>
-            <div class="suport">
-                <img src="imagens/email.png" alt="e-mail">
-                <a href="mailto:rm570024@fiap.com.br">E-mail</a>
+                <div id="projeto1">
+
+                    <h3>Avatares Inteligentes</h3>
+                    <p> O projeto "Avatares Inteligentes" é uma iniciativa que visa criar avatares digitais personalizados utilizando inteligência artificial. Isso sendo possível com roupas, acessórios e modelagem corporal.</p>
+                    
+                    <p>Nosso objetivo é proporcionar uma experiência única e interativa para os usuários, permitindo que eles criem avatares que reflitam suas personalidades, e gere um melhor senso e comunidade ao poder compartilhar com os outros usuários suas missões sustentaveis feitas no aplicativos através das novas conquistas de cosméticos. E convorme a utilização do App mais cosméticos serão disponibilizados.</p>
+                </div>
+        </section>
+        <section id="Avatar_Soulup">
+            <div class="avatar_soulup_window">
+                <img class="icone_avatar" src="imagens/AvatarSoulUp.png" alt="">
+                <div id="projeto2">
+                    <h3> Avatar SoulUp</h3>
+                    <p> O "Avatar SoulUp" é uma extensão do projeto "Avatares Inteligentes", focada em criar o "mascote" da empresa, afim de uma identidade visual única.</p>
+                    <p> Com essa ideia em prática buscamos representar a SoulUp de forma viva para uma maior proximidade da empresa com os usuários. Apartir disso, o Avatar se comunicará com o internauta como está apartir de expressões que mudarão de acordo com a utilização do aplicativo.</p>
             </div>
-        </div>
-    </footer>
+            </div>
+        </section>
+        <!-- Rodapé / Footer do site -->
+        <footer>
+            <div class="logo-footer">
+                <img src="imagens/TechLeet.png" alt="TechLeet">
+                <img src="imagens/SoulUp.png" alt="SoulUp">
+                <p>Copyright © 2026 TechLeet. Todos os direitos reservados.</p>
+            </div>
+            <div class="logo-footer">
+                <h3>Suporte</h3>
+                <div class="suport">
+                    <img src="imagens/teams.png" alt="Teams">
+                    <a href>Teams</a>
+                </div>
+                <div class="suport">
+                    <img src="imagens/email.png" alt="e-mail">
+                    <a href="mailto:rm570024@fiap.com.br">E-mail</a>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
