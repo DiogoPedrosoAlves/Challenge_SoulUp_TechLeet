@@ -39,7 +39,7 @@ img {
   margin-top: 15px;
 }
 
-h3 {
+h3#titulo_suporte {
   color: var(--text-footer);
   font-family: var(--font);
 }
