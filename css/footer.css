@@ -42,6 +42,7 @@ img {
 h3#titulo_suporte {
   color: var(--text-footer);
   font-family: var(--font);
+  font-size: 24px;
 }
 
 .suport a {
